@@ -1,3 +1,7 @@
+.footer-text{
+    color: white;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -46,6 +50,7 @@ nav ul:first-of-type li:first-of-type a {
    
 }
 nav ul:last-of-type {
+    color: #eee;
     text-align: right;
     padding-right: 20px;
 }
@@ -67,7 +72,7 @@ nav ul li a{
 
 }
 nav ul:last-of-type li:last-of-type a {
-    background: deeppink;
+    background: #9bdeac;
     padding: 10px;
     color: #fff;
     border-radius: 5px;
@@ -115,7 +120,7 @@ header .tagline a {
     
 }
 .contact {
-background: deeppink;
+background: #9bdeac;
 text-decoration:none;
 color: #eee;
 }
@@ -195,7 +200,10 @@ main div:last-of-type{
 
 
 footer {
-    background: #eee;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: ;
+    color:white;
+    background: #1b262c;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;        
     justify-items: center;
@@ -203,7 +211,7 @@ footer {
     margin-top: 40px;
 }
 footer ul {
-    padding: 10px;
+    padding: 20px;
 width: 40%;
 list-style-type:none;
 }
@@ -211,7 +219,7 @@ footer ul li {
     margin: 10px;
 }
 footer ul li a {
-    color: #111;
+    color: white;
     text-decoration: none;
 }
 footer ul li:first-of-type {
@@ -351,7 +359,7 @@ footer ul li:first-of-type {
         
     }    
     header img {
-        top: 300px;
+        top: 200px;
         position: absolute;
         width: 300px;
         
